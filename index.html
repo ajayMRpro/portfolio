@@ -1,0 +1,331 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajaya Bhoi - Portfolio | Full-Stack Developer & MCA Student</title>
+    <meta name="description" content="Portfolio of Ajaya Bhoi - MCA Student and Full-Stack Developer specializing in React.js, MERN Stack, and modern web technologies." />
+    <meta name="author" content="Ajaya Bhoi" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body data-theme="light">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Ajaya Bhoi</div>
+            <div class="nav-content">
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon" id="theme-icon"></i>
+                </button>
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="loading">Hi, I'm <span class="highlight">Ajaya Bhoi</span></h1>
+            <p class="loading">MCA Student & Full-Stack Developer passionate about creating innovative web solutions</p>
+            <div class="hero-buttons loading">
+                <a
+                    href="https://github.com/ajayMRpro/certifications/blob/main/AjayCv.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn btn-primary"
+                >
+                    <i class="fas fa-download"></i>
+                    Download Resume
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <i class="fas fa-envelope"></i>
+                    Get In Touch
+                </a>
+            </div>
+        </div>
+        
+        <div class="scroll-down floating" onclick="document.getElementById('about').scrollIntoView()">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title reveal">About Me</h2>
+            <div class="about-content">
+                <div class="about-text reveal">
+                    <p>I'm a passionate MCA student and aspiring full-stack developer with a strong foundation in computer science. Currently pursuing my Master's degree at Lovely Professional University, I have a keen interest in modern web technologies and problem-solving.</p>
+                    <p>My journey in programming started during my undergraduate studies, where I developed a solid understanding of programming fundamentals. I enjoy creating user-friendly applications and am always eager to learn new technologies and frameworks.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title reveal">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category reveal">
+                    <h3>Languages</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                    </div>
+                </div>
+                <div class="skill-category reveal">
+                    <h3>Frameworks & Libraries</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">React.js</span>
+                        <span class="skill-tag">Express.js</span>
+                        <span class="skill-tag">Bootstrap</span>
+                    </div>
+                </div>
+                <div class="skill-category reveal">
+                    <h3>Tools & Platforms</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">DSA</span>
+                    </div>
+                </div>
+                <div class="skill-category reveal">
+                    <h3>Soft Skills</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">Problem-Solving</span>
+                        <span class="skill-tag">Team Player</span>
+                        <span class="skill-tag">Adaptability</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title reveal">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card reveal">
+                    <h3>QuickShow - Movie Ticket Booking</h3>
+                    <p class="project-date">July 2025</p>
+                    <p>A full-stack MERN application for online movie ticket booking with authentication, trailer viewing, and ticket management features.</p>
+                    <div class="project-features">
+                        <h4>Key Features:</h4>
+                        <ul>
+                            <li>User authentication with Clerk integration</li>
+                            <li>Watch movie trailers from YouTube</li>
+                            <li>Select time slots and book tickets</li>
+                            <li>Cancel and manage bookings</li>
+                            <li>Responsive design with excellent UI/UX</li>
+                        </ul>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">React.js</span>
+                        <span class="tech-tag">Express.js</span>
+                        <span class="tech-tag">MongoDB</span>
+                        <span class="tech-tag">Clerk Auth</span>
+                        <span class="tech-tag">YouTube API</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn btn-small">
+                            <i class="fas fa-external-link-alt"></i>
+                            View Live
+                        </a>
+                        <a href="#" class="btn btn-small btn-outline">
+                            <i class="fab fa-github"></i>
+                            Code
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card reveal">
+                    <h3>Netflix Clone</h3>
+                    <p class="project-date">March 2025</p>
+                    <p>A responsive Netflix clone built with HTML and CSS, featuring a modern UI design that replicates the popular streaming platform's interface.</p>
+                    <div class="project-features">
+                        <h4>Key Features:</h4>
+                        <ul>
+                            <li>Responsive design for all screen sizes</li>
+                            <li>Modern UI/UX matching Netflix's interface</li>
+                            <li>Clean and organized code structure</li>
+                        </ul>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">Responsive Design</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn btn-small">
+                            <i class="fas fa-external-link-alt"></i>
+                            View Live
+                        </a>
+                        <a href="#" class="btn btn-small btn-outline">
+                            <i class="fab fa-github"></i>
+                            Code
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card reveal">
+                    <h3>Food Recipe WebApp</h3>
+                    <p class="project-date">February 2025</p>
+                    <p>An interactive food recipe application with API integration for dynamic recipe data, search functionality, and responsive design.</p>
+                    <div class="project-features">
+                        <h4>Key Features:</h4>
+                        <ul>
+                            <li>Dynamic recipe data from external APIs</li>
+                            <li>Search and filter recipes</li>
+                            <li>Responsive design for all devices</li>
+                            <li>Enhanced user interaction and accessibility</li>
+                        </ul>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">API Integration</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn btn-small">
+                            <i class="fas fa-external-link-alt"></i>
+                            View Live
+                        </a>
+                        <a href="#" class="btn btn-small btn-outline">
+                            <i class="fab fa-github"></i>
+                            Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section education">
+        <div class="container">
+            <h2 class="section-title reveal">Education</h2>
+            <div class="education-timeline">
+                <div class="education-item reveal">
+                    <div class="education-content">
+                        <h3>Master of Computer Application (MCA)</h3>
+                        <h4>Lovely Professional University</h4>
+                        <p class="location">Punjab, India</p>
+                        <p class="duration">Since August 2024</p>
+                        <p class="grade">CGPA: 7.72</p>
+                    </div>
+                </div>
+                <div class="education-item reveal">
+                    <div class="education-content">
+                        <h3>BSc in Computer Science</h3>
+                        <h4>Kalahandi University</h4>
+                        <p class="location">Kalahandi, Odisha</p>
+                        <p class="duration">April 2020 - March 2023</p>
+                        <p class="grade">CGPA: 8.69</p>
+                    </div>
+                </div>
+                <div class="education-item reveal">
+                    <div class="education-content">
+                        <h3>Intermediate</h3>
+                        <h4>Shree Education Scholar's Science and Commerce College</h4>
+                        <p class="location">M.Rampur, Odisha</p>
+                        <p class="duration">April 2017 - March 2019</p>
+                        <p class="grade">Percentage: 61.33%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section - Full Screen -->
+    <section id="contact" class="contact">
+        <div class="floating-element">
+            <i class="fas fa-envelope" style="font-size: 4rem;"></i>
+        </div>
+        <div class="floating-element">
+            <i class="fas fa-phone" style="font-size: 3rem;"></i>
+        </div>
+        <div class="floating-element">
+            <i class="fas fa-heart" style="font-size: 3.5rem;"></i>
+        </div>
+        
+        <div class="contact-container">
+            <h2 class="contact-title">Get In Touch</h2>
+            <p class="contact-subtitle">Let's connect and create something amazing together! 🚀</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div class="contact-item-content">
+                            <h3>Email Me</h3>
+                            <p><a href="mailto:bhoiajaya625@gmail.com">bhoiajaya625@gmail.com</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div class="contact-item-content">
+                            <h3>Call Me</h3>
+                            <p><a href="tel:+917735457573">+91-7735457573</a></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="social-section">
+                    <h3 class="social-title">Follow Me On</h3>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/ajaya-bhoi-5ab68722a/" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/ajayMRpro" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.naukri.com/code360/profile/7f3ef008-0fc5-40a5-a91c-285c4f59c857" target="_blank" class="social-link">
+                            <i class="fas fa-code"></i>
+                            <span>Code360</span>
+                        </a>
+                        <a href="https://leetcode.com/u/Ajaya2001/" target="_blank" class="social-link">
+                            <i class="fas fa-laptop-code"></i>
+                            <span>LeetCode</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-cta">
+                <p>Ready to start your next project?</p>
+                <a href="mailto:bhoiajaya625@gmail.com" class="cta-button">
+                    <i class="fas fa-paper-plane"></i>
+                    Send Message
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
